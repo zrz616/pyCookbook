@@ -8,3 +8,6 @@ with TemporaryFile('w+t') as f:
     f.seek(0)
     data = f.read()
     print(data)
+
+
+# with TemporaryFile('w+t', encoding='utf-8', errors='ignore') as f:
